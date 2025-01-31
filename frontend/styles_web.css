@@ -53,6 +53,7 @@ body {
 }
 .idioma{
     background-color: #e6e6e6;
+    margin-left: 2%;
 }
 .container {
     display: flex;
