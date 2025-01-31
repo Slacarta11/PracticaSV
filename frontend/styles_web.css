@@ -51,7 +51,9 @@ body {
     border-radius: 30%;
     cursor: pointer;
 }
-
+.idioma{
+    background-color: #e6e6e6;
+}
 .container {
     display: flex;
     height: 100%;
