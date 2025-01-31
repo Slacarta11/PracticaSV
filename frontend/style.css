@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8d210; /* Amarillo suave */
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.registro-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+}
+
+.registro-container h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.input-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    font-size: 14px;
+}
+
+button {
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p a {
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: darkred;
+}
+
+@media screen and (max-width: 480px) {
+    .registro-container {
+        width: 90%;
+        padding: 15px;
+    }
+}
