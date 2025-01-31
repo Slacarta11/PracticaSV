@@ -46,8 +46,12 @@ app.put('/PracticaSV/:pedidoId', async (req, res) => {
     res.status(204).json({});
 });
 
-app.delete('/movies/:pedidoId', async (req, res) => {
+app.delete('/PracticaSV/:pedidoId', async (req, res) => {
     // para borrar los datos de una peli
     await db('pedidos').del().where({id: req.params.pedidoId});
     res.status(204).json({});
+});
+
+app.listen(8080, () => {
+    console.log("El backend ha iniciado en el puerto 8080"); 
 });

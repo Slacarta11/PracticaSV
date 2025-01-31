@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="module" src="web.js"></script>
+</head>
+
+<body onload="readPedidos()">
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="web.html">Listado</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Registro</a>
+      </li>
+    </ul>
+
+    <h1>Lista de pedidos</h1>
+    <table class="table">
+      <thead>
+        <tr>
+        <th>Fecha</th>
+        <th>Hora</th>
+        <th>Numero</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>...</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"> 
+      </tbody>
+    </table>
+    </ul>
+  </div>
+</body>
+
+</html>
