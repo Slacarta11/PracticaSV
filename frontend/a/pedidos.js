@@ -16,11 +16,10 @@ window.readPedidos = function () {
                                 td(pedido.numero) +
                                 td(pedido.precio) +
                                 td(pedido.cantidad) +
-                                '<a class="btn btn-warning" href="modify.html">' +
-                                icon('edit') +
+                                '<a href="#">'+ '✏️'+
                                 '</a>' +
-                                '<a class= "btn btn-danger" href="javascript:removePedido(' + pedido.id + ')">' +
-                                icon('delete') +
+                                '<a  href="javascript:removePedido(' + pedido.id + ')">' +
+                                '🗑️' +
                                 '</a>';
                                 
                 pedidosTable.appendChild(row);  
