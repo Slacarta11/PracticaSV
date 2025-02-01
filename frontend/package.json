@@ -1,7 +1,7 @@
 {
     "name": "pedidos-frontend",
     "version": "0.1",
-    "source": "src/pedidos.html",
+    "source": "src/web.html",
     "type": "module",
     "scripts": {
         "start": "parcel --no-cache",
