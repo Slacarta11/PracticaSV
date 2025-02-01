@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('pizza3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.login-container {
+    text-align: center;
+    background-color: rgba(168, 168, 160, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    color: maroon;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-container input {
+    text-align: center;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(158, 13, 13);
+    border-radius: 5px;
+    display: block;
+    font-size: 16px;
+}
+
+
+.login-container button {
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-container button:hover {
+    text-align: center;
+    background-color: darkred;
+}
+
+
+@media screen and (max-width: 480px) {
+    .login-container {
+        width: 90%;  
+        padding: 15px;
+    }
+
+    .login-container input,
+    .login-container button {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        width: 80%;
+        max-width: 320px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .login-container {
+        max-width: 400px; 
+    }
+}
