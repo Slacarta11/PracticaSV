@@ -21,6 +21,24 @@
         
 
     </div>
+  
+    <script>
+        function validarLogin(event) {
+            event.preventDefault(); 
+            const usuarioCorrecto = "admin";
+            const passwordCorrecto = "1234";
+
+            let usuario = document.getElementById("usuario").value;
+            let password = document.getElementById("password").value;
+
+            if (usuario === usuarioCorrecto && password === passwordCorrecto) {
+                alert("Acceso concedido ✅");
+                window.location.href = "../"; 
+            } else {
+                document.getElementById("mensaje").innerText = "Usuario o contraseña incorrectos ❌";
+            }
+        }
+    </script>
 
 
 </body>
